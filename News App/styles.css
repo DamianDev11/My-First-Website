@@ -82,6 +82,10 @@ nav{
     color: red;
 }
 
+.nav-item.active {
+    color: var(--accent-color);
+}
+
 .search-bar{
     height: 32px;
     gap: 8px;
@@ -153,5 +157,5 @@ main{
 
 .news-source {
     margin-block: 12px;
-    
+
 }
