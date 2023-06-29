@@ -57,6 +57,7 @@ nav{
 .main-nav {
     justify-content: space-between;
     padding-block: 8px;
+    height: 80px;
     
 }
 
