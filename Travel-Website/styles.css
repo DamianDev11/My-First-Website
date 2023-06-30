@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: "Dongle-bold";
@@ -228,11 +229,54 @@ header {
 
 input,textarea {
     width: 70%;
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
     border: none;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     border-radius: 5px;
     font-size: 1.4rem;
     font-family: "Dongle-regular";
+}
+
+textarea{
+    height: 200px;
+}
+
+.form button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-family: "Dongle-light";
+    font-size: 1.6rem;
+    border: none;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+
+}
+
+footer p{
+    font-family: "Dongle-regular";
+    font-size: 1.5rem;
 }
