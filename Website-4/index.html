@@ -9,12 +9,16 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
   </head>
   <body>
     <div id="main">
-      <div id="page1">
+      <div data-scroll data-scroll-speed="-5" id="page1">
         <nav>
-          <img src="./logo.jpg" alt="" />
+          <img src="./img1.png" alt="" />
           <div id="right-nav">
             <button>Book a Demo</button>
             <button><i class="ri-menu-fill"></i></button>
@@ -40,7 +44,20 @@
           muted
         ></video>
       </div>
+      <div id="page2">
+        <h2>CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN(DTT)</h2>
+        <h1>
+          The DIgital Twin Token is a unique digital asset backed by property
+          data. Magma combines your building's components and systems essential
+          information into a DTT. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Atque, et.
+        </h1>
+      </div>
+      <div id="page3">
+        <canvas></canvas>
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
       integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
